@@ -1,8 +1,5 @@
 # TASK: Print numbers 1 to 99..
 # Customize the plot by adding a title, labels for both axes, and a grid. 
-
-#!/bin/bash
-
 # Check if the required commands are available
 command -v echo >/dev/null 2>&1 || { echo "Error: 'echo' command not found."; exit 1; }
 command -v expr >/dev/null 2>&1 || { echo "Error: 'expr' command not found."; exit 1; }
