@@ -9,6 +9,7 @@ i=1
 while [ $i -le 99 ]; do
     # Check if $i is a valid number
     if ! [[ $i =~ ^[0-9]+$ ]]; then
+    #Print Unexpect value
         echo "Error: Unexpected value for 'i': $i"
         exit 1
     fi
@@ -20,6 +21,7 @@ while [ $i -le 99 ]; do
 
     # Check if increment operation was successful
     if [ $? -ne 0 ]; then
+    #Print failed to increment
         echo "Error: Failed to increment the value of 'i'."
         exit 1
     fi
