@@ -8,7 +8,7 @@ command -v expr >/dev/null 2>&1 || { echo "Error: 'expr' command not found."; ex
 # Initialize counter
 i=1
 
-# Loop to print numbers from 1 to 99
+# Loop to print numbers from 1 to 99!!
 while [ $i -le 99 ]; do
     # Check if $i is a valid integer
     if ! [[ $i =~ ^[0-9]+$ ]]; then
